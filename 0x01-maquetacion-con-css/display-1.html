@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    /* ===== block ===== */
+    div {
+      background: salmon;
+      width: 200px;
+      height: 200px;
+      margin: 20px;
+    }
+    /* ==== Inline ==== */
+    a {
+      background: skyblue;
+      /* Por ser inline no funciona el width ni height
+      width: 200px;
+      height: 200px; */
+
+      /* Solo aplica para izquierda y derecha */
+      margin: 20px;
+    }
+    /* ===== Inline-block ===== 
+    Button visualizacion inline pero si se puede aplicar
+    caracteristicas de bloque como width y height*/
+    button {
+      background: slateblue;
+      width: 200px;
+      height: 200px;
+    }
+    body {
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <div>div de tipo bloque</div>
+  <a href="">A de tipo Inline</a>
+  <button>Button inline-block type</button>
+</body>
+</html>
